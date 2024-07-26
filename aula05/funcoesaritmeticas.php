@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Funções Aritméticas</title>
-        <<link rel="stylesheet" href="_css/estilo.css"/>
+        <link rel="stylesheet" href="_css/estilo.css"/>
         <style>
             h2{
                 font: 15pt Arial;

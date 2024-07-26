@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Igual e Idêntico</title>
-        <<link rel="stylesheet" href="_css/estilo.css"/>
+        <link rel="stylesheet" href="_css/estilo.css"/>
     </head>
     <body>
         <div>
