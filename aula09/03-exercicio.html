@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" href="_css/estilo.css"/>
+        <style>
+            div > form > #botao{
+                background-color: #060425;
+                box-shadow:2px 2px 3px rgba(0, 0, 0, 0.432);
+                color:white;
+                display: inline-block;
+                margin-top: 20px;
+                padding: 10px;
+            }
+
+            div > form > .notas{
+                width: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <form method="get" action="03-exercicio.php">
+                <label for="in1">Nota 1: </label>
+                <input type="number" name="n1" id="in1" placeholder=" N1" step="0.5" class="notas" required=""><br> 
+                <label for="in2">Nota 2: </label>
+                <input type="number" name="n2" id="in2" placeholder=" N2" step="0.5" class="notas" required=""><br>
+                <input type="submit" value="Calcular Média" id="botao">
+            </form>
+        </div>
+    </body>
+</html>
