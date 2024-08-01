@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" href="_css/estilo.css"/>
+    </head>
+    <body>
+        <div>
+            <form method="get" action="01-exercicio.php">
+                <label for="inum">Número: </label>
+                <input type="number" name="num" id="inum" required><br>
+                <fieldset><legend>Operação</legend>
+                    <input type="radio" name="oper" id="dobro" value="1" checked>
+                    <label for="id">Dobro</label>
+                    <input type="radio" name="oper" id="cubo" value="2">
+                    <label for="id">Cubo</label>
+                    <input type="radio" name="oper" id="raiz" value="3">
+                    <label for="id">Raiz Quadrada</label>
+                </fieldset>
+                <input type="submit" class="botao" value="Calcular">
+            </form>
+        </div>
+    </body>
+</html>
