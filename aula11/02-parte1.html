@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" href="_css/estilo.css"/>
+    </head>
+    <body>
+        <div>
+            <form method="get" action="02-parte2.php">
+                <?php
+                $n = 1;
+                while ($n <= 5){
+                    <label for="iv1">Valor 1:</label>
+                    echo"<input type='number' name='v1' id='iv1' max='100' min='0' value='0'<br>">
+                    
+                    $n ++;
+                }
+                ?>
+                <input type="submit" value="Enviar" class="botao">
+            </form>
+        </div>
+    </body>
+</html>
