@@ -9,12 +9,10 @@
         <div>
             <form method="get" action="02-parte2.php">
                 <?php
-                $n = 1;
-                while ($n <= 5){
-                    <label for="iv1">Valor 1:</label>
-                    echo"<input type='number' name='v1' id='iv1' max='100' min='0' value='0'<br>">
-                    
-                    $n ++;
+                $c = 1;
+                while ($c <= 5){
+                    echo"Valor $c: <input type='number' name='v$c' max='100' min='0' value='0'><br>";
+                    $c ++;
                 }
                 ?>
                 <input type="submit" value="Enviar" class="botao">
