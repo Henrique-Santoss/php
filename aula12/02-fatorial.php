@@ -8,11 +8,15 @@
     <body>
         <div>
             <?php
-            $fat = isset($_GET["val"]) ? $_GET["val"]: 0;
-            do {
-                echo "$fat x ";
-            } while($fat >=1)
-            $tot 
+            $v = isset($_GET["val"]) ? $_GET["val"] : 1;
+            echo "<h1>Calculando o valor de $v .</h1>";
+            $c = $v;
+            $tot = 1;
+            do{
+                $tot = $tot * $c;
+                $c --;
+            } while ($c >= 1);
+            echo "<h2>$v ! = $tot</h2>";
             ?>
             <br><a href="02-index.html" class="botao">Voltar</a>
         </div>
